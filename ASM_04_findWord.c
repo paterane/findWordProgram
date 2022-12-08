@@ -1,3 +1,9 @@
+/*
+    Assignment: 4 
+    Date: 12/8/2022
+    Program Name: WordFinder
+    Programmer: Peter Oo
+*/
 #include <stdio.h>
 
 void wordUpper(char *word);
