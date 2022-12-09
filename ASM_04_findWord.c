@@ -43,9 +43,9 @@ int main(){
         wordUpper(wordFile);
         while(wordFile[i] != '\0' || theWordUpper[i] != '\0'){ // to stop searching if see '\0' @ shorter word
             if(theWordUpper[i] != wordFile[i]) match = 0;
-            printf("._");  // searching animated.
             i++;
         }
+        printf("._");  // searching animated.        
         if(match == 1) wordCount++;
     }
     printf("\n"); // go next line after searching.
